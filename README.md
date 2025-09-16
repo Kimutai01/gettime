@@ -38,8 +38,6 @@ mix deps.get
 Add to your `config/config.exs`:
 
 ```elixir
-# REQUIRED: Configure Elixir to use tzdata as the timezone database
-config :elixir, :time_zone_database, Tzdata.TimeZoneDatabase
 
 config :gettime,
   default_db_timezone: "UTC",                    # Your database timezone
